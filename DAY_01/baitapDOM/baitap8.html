@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="table-container"></div>
+    <script>
+        var table=document.createElement('table')
+        table.style.border='ipx solid black'
+        for(var i=0;i<3;i++){
+            var row =document.createElement('tr')
+            for(var j=0;j<3;j++){
+                var cell =document.createElement('td')
+                cell.textContent = ` ${i+1},  ${j+1}` 
+                cell.style.border = '1px solid black'
+                cell.style.padding = '8px'
+                row.appendChild(cell)
+            }
+            table.appendChild(row)
+        }
+        var container = document.getElementById('table-container')
+        container.appendChild(table)
+    </script>
+</body>
+</html>

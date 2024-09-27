@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        const h1 = document.createElement("h1");
+        h1.innerHTML = "hello";
+        h1.id = "heading-1";
+        h1.style.color = "blue";
+        h1.style = 'color:green; font-size:30px; background-color: red';
+        console.dir(h1);
+        document.body.appendChild(h1);
+        const demo = document.getElementById('demo');
+        demo.appendChild(h1)
+    </script>
+</body>
+</html>
