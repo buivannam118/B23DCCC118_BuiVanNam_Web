@@ -1,0 +1,121 @@
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+h1 span {
+    margin-left: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+}
+
+.radio-button {
+    margin-right: 10px;
+}
+
+.task-date {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.add-task-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add-task-button {
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-task-button span {
+    color: rgb(59, 221, 113);
+    margin-right: 5px;
+}
+
+.add-task-form {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.submit-task-button {
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.submit-task-button:hover {
+    background-color: rgb(54, 154, 44);
+}
+
+.add-task-container {
+    position: fixed;
+}
+
+.add-task-form {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.task-input {
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.centered-title {
+    text-align: center;
+    margin: 0;
+}
